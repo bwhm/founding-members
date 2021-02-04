@@ -1,0 +1,559 @@
+{
+  "scoringPeriodsFull": {
+    "currentScoringPeriod": {
+      "scoringPeriodId": 3,
+      "started": "2021-01-22T23:59:59+01:00",
+      "ends": "2021-02-22T23:59:59+01:00"
+    },
+    "previousScoringPeriods":
+    [
+      {
+        "scoringPeriodId": 1,
+        "started": "2020-11-22T23:59:59+01:00",
+        "ended": "2020-12-22T23:59:59+01:00",
+        "referralRate": 0.05,
+        "submittedSummaries":
+        [
+          {
+            "summaryId": 1.1,
+            "memberHandle": "Theresa",
+            "memberId": 123,
+            "directScore": 12000,
+            "inducted": null,
+            "referrer":
+            {
+              "memberHandle": "Darlene",
+              "memberId": 124,
+              "inducted": null,
+              "referralScore": 600
+            }
+          },
+          {
+            "summaryId": 1.2,
+            "memberHandle": "Leslie",
+            "memberId": 1,
+            "directScore": 10000,
+            "inducted":
+            {
+              "fmId": 1,
+              "inductedScoringPeriodId": 0,
+              "avatar": "https://github.com/Joystream/founding-members/avatars/bear.png" 
+            },
+            "referrer": null
+          },
+          {
+            "summaryId": 1.3,
+            "memberHandle": "Johnny",
+            "memberId": 1268,
+            "directScore": 3000,
+            "inducted": null,
+            "referrer":
+            {
+              "memberHandle": "Robert",
+              "memberId": 1266,
+              "inducted":
+              {
+                "fmId": 9,
+                "inductedScoringPeriodId": 2,
+                "avatar": "https://github.com/Joystream/founding-members/avatars/moose.png" 
+              },
+              "referralScore": 150
+            }
+          },//...
+          {
+            "summaryId": 1.13,
+            "memberHandle": "Robert",
+            "memberId": 1266,
+            "directScore": 18000,
+            "inducted":
+            {
+              "fmId": 9,
+              "inductedScoringPeriodId": 2,
+              "avatar": "https://github.com/Joystream/founding-members/avatars/moose.png" 
+            },
+            "referrer":
+            {
+              "memberHandle": "Leslie",
+              "memberId": 1,
+              "inducted":
+              {
+                "fmId": 1,
+                "inductedScoringPeriodId": 0,
+                "avatar": "https://github.com/Joystream/founding-members/avatars/bear.png" 
+              },
+              "referralScore": 900
+            }
+          }
+        ],
+        "totalDirectScore": 43000,
+        "totalReferralScore": 900
+      },
+      {
+        "scoringPeriodId": 2,
+        "started": "2020-12-22T23:59:59+01:00",
+        "ended": "2021-01-22T23:59:59+01:00",
+        "referralRate": 0.1,
+        "submittedSummaries":
+        [
+          {
+            "summaryId": 2.1,
+            "memberHandle": "Robert",
+            "memberId": 1266,
+            "directScore": 7000,
+            "inducted":
+            {
+              "fmId": 9,
+              "inductedScoringPeriodId": 2,
+              "avatar": "https://github.com/Joystream/founding-members/avatars/moose.png" 
+            },
+            "referrer":
+            {
+              "memberHandle": "Leslie",
+              "memberId": 1,
+              "inducted":
+              {
+                "fmId": 1,
+                "inductedScoringPeriodId": 0,
+                "avatar": "https://github.com/Joystream/founding-members/avatars/bear.png" 
+              },
+              "referralScore": 700
+            }
+          },
+          {
+            "summaryId": 2.2,
+            "memberHandle": "Martin",
+            "memberId": 13,
+            "directScore": 20000,
+            "inducted": null,
+            "referrer":
+            {
+              "memberHandle": "Leslie",
+              "memberId": 1,
+              "inducted":
+              {
+                "fmId": 1,
+                "inductedScoringPeriodId": 0,
+                "avatar": "https://github.com/Joystream/founding-members/avatars/bear.png" 
+              },
+              "referralScore": 2000
+            }
+          },
+          {
+            "summaryId": 2.3,
+            "memberHandle": "Johnny",
+            "memberId": 1268,
+            "directScore": 5000,
+            "inducted": null,
+            "referrer":
+            {
+              "memberHandle": "Robert",
+              "memberId": 1266,
+              "inducted":
+              {
+                "fmId": 9,
+                "inductedScoringPeriodId": 2,
+                "avatar": "https://github.com/Joystream/founding-members/avatars/moose.png" 
+              },
+              "referralScore": 500
+            }
+          }
+        ],
+        "totalDirectScore": 27000,
+        "totalReferralScore": 2700
+      }
+    ]
+  },
+  "totalScoresFull": {
+    "directScores": [
+      {
+        "memberHandle": "Robert",
+        "memberId": 1266,
+        "inducted":
+        {
+          "fmId": 9,
+          "inductedScoringPeriodId": 2,
+          "avatar": "https://github.com/Joystream/founding-members/avatars/moose.png"
+        },
+        "summariesSubmitted": [
+          {
+            "summaryId": 1.13,
+            "directScore": 18000
+          },
+          {
+            "summaryId": 2.1,
+            "directScore": 7000
+          }
+        ],
+        "totalDirectScore": 25000,
+        "referrer":
+        {
+          "memberHandle": "Leslie",
+          "memberId": 1,
+          "inducted":
+          {
+            "fmId": 1,
+            "inductedScoringPeriodId": 0,
+            "avatar": "https://github.com/Joystream/founding-members/avatars/bear.png"
+          }
+        }
+      },
+      {
+        "memberHandle": "Martin",
+        "memberId": 13,
+        "inducted": null,
+        "summariesSubmitted": [
+          {
+            "summaryId": 2.2,
+            "directScore": 20000
+          }
+        ],
+        "totalDirectScore": 20000,
+        "referrer":
+        {
+          "memberHandle": "Leslie",
+          "memberId": 1,
+          "inducted":
+          {
+            "fmId": 1,
+            "inductedScoringPeriodId": 0,
+            "avatar": "https://github.com/Joystream/founding-members/avatars/bear.png"
+          }
+        }
+      },
+      {
+        "memberHandle": "Theresa",
+        "memberId": 123,
+        "inducted": null,
+        "summariesSubmitted":
+        [
+          {
+            "summaryId": 1.1,
+            "directScore": 12000
+          }
+        ],
+        "totalDirectScore": 12000,
+        "referrer":
+        {
+          "memberHandle": "Darlene",
+          "memberId": 124,
+          "inducted": null,
+        }
+      },
+      {
+        "memberHandle": "Leslie",
+        "memberId": 1,
+        "inducted":
+        {
+          "fmId": 1,
+          "inductedScoringPeriodId": 0,
+          "avatar": "https://github.com/Joystream/founding-members/avatars/bear.png"
+        },
+        "summariesSubmitted":
+        [
+          {
+            "summaryId": 1.2,
+            "directScore": 10000
+          }
+        ],
+        "totalDirectScore": 10000,
+        "referrer": null
+      },
+      {
+        "memberHandle": "Johnny",
+        "memberId": 1268,
+        "inducted": null,
+        "summariesSubmitted": [
+          {
+            "summaryId": 1.3,
+            "directScore": 3000
+          },
+          {
+            "summaryId": 2.3,
+            "directScore": 5000
+          }
+        ],
+        "totalDirectScore": 8000,
+        "referrer":
+        {
+          "memberHandle": "Robert",
+          "memberId": 1266,
+          "inducted":
+          {
+            "fmId": 9,
+            "inductedScoringPeriodId": 2,
+            "avatar": "https://github.com/Joystream/founding-members/avatars/moose.png"
+          }
+        }
+      }
+    ],
+    "referralScores": [
+      {
+        "memberHandle": "Leslie",
+        "memberId": 1,
+        "inducted":
+        {
+          "fmId": 1,
+          "inductedScoringPeriodId": 0,
+          "avatar": "https://github.com/Joystream/founding-members/avatars/bear.png"
+        },
+        "referrals":
+        [
+          {
+            "memberHandle": "Robert",
+            "memberId": 1266,
+            "inducted":
+            {
+              "fmId": 9,
+              "inductedScoringPeriodId": 2,
+              "avatar": "https://github.com/Joystream/founding-members/avatars/moose.png"
+            },
+            "referralScore":
+            [
+              {
+                "summaryId": 1.13,
+                "referralScore": 900
+              },
+              {
+                "summaryId": 2.1,
+                "referralScore": 700
+              }
+            ]
+          },
+          {
+            "memberHandle": "Martin",
+            "memberId": 13,
+            "inducted": null,
+            "referralScore":
+            [
+              {
+                "summaryId": 2.2,
+                "referralScore": 2000
+              }
+            ]
+          }
+        ],
+        "totalReferralScore": 3600,
+        "referrer": null,
+        "totalScore": 13600
+      },
+      {
+        "memberHandle": "Robert",
+        "memberId": 1266,
+        "inducted":
+        {
+          "fmId": 9,
+          "inductedScoringPeriodId": 2,
+          "avatar": "https://github.com/Joystream/founding-members/avatars/moose.png"
+        },
+        "referrals":
+        [
+          {
+            "memberHandle": "Johnny",
+            "memberId": 1268,
+            "inducted": null,
+            "referralScore":
+            [
+              {
+                "summaryId": 1.3,
+                "referralScore": 0
+              },
+              {
+                "summaryId": 2.3,
+                "referralScore": 500
+              }
+            ]
+          }
+        ],
+        "totalReferralScore": 500,
+        "referrer":
+        {
+          "memberHandle": "Leslie",
+          "memberId": 1,
+          "inducted":
+          {
+            "fmId": 1,
+            "inductedScoringPeriodId": 0,
+            "avatar": "https://github.com/Joystream/founding-members/avatars/bear.png"
+          }
+        }
+      }
+    ],
+    "totalScores": [
+      {
+        "memberHandle": "Robert",
+        "memberId": 1266,
+        "inducted":
+        {
+          "fmId": 9,
+          "inductedScoringPeriodId": 2,
+          "avatar": "https://github.com/Joystream/founding-members/avatars/moose.png"
+        },
+        "totalDirectScore": 25000,
+        "totalReferralScore": 500,
+        "totalScore": 25500,
+        "referrer":
+        {
+          "memberHandle": "Leslie",
+          "memberId": 1,
+          "inducted":
+          {
+            "fmId": 1,
+            "inductedScoringPeriodId": 0,
+            "avatar": "https://github.com/Joystream/founding-members/avatars/bear.png"
+          }
+        }
+      },
+      {
+        "memberHandle": "Leslie",
+        "memberId": 1,
+        "inducted":
+        {
+          "fmId": 1,
+          "inductedScoringPeriodId": 0,
+          "avatar": "https://github.com/Joystream/founding-members/avatars/bear.png"
+        },
+        "totalDirectScore": 10000,
+        "totalReferralScore": 3600,
+        "totalScore": 13600,
+        "referrer": null
+      }
+    ]
+  },
+  "poolStats": {
+    "currentPoolSize": 15,
+    "baseAllocation": 0.02,
+    "allocatedFromPool": 3
+  },
+  "currentFoundingMembers": [
+    {
+      "memberHandle": "Leslie",
+      "memberId": 1,
+      "inducted":
+      {
+        "fmId": 1,
+        "inductedScoringPeriodId": 0,
+        "avatar": "https://github.com/Joystream/founding-members/avatars/bear.png"
+      },
+      "extraAllocation": 0.2,
+      "summariesSubmitted":
+      [
+        {
+          "summaryId": 1.2,
+          "directScore": 10000
+        }
+      ],
+      "totalDirectScore": 10000,
+      "referrals":
+      [
+        {
+          "memberHandle": "Robert",
+          "memberId": 1266,
+          "inducted":
+          {
+            "fmId": 9,
+            "inductedScoringPeriodId": 2,
+            "avatar": "https://github.com/Joystream/founding-members/avatars/moose.png"
+          },
+          "referralScore":
+          [
+            {
+              "summaryId": 1.13,
+              "referralScore": 900
+            },
+            {
+              "summaryId": 2.1,
+              "referralScore": 700
+            }
+          ]
+        },
+        {
+          "memberHandle": "Martin",
+          "memberId": 13,
+          "inducted": null,
+          "referralScore":
+          [
+            {
+              "summaryId": 2.2,
+              "referralScore": 2000
+            }
+          ]
+        }
+      ],
+      "totalReferralScore": 3600,
+      "referrer": null,
+      "totalScore": 13600
+    },
+    {
+      "memberHandle": "Savannah",
+      "memberId": 42,
+      "inducted":
+      {
+        "fmId": 2,
+        "inductedScoringPeriodId": 0,
+        "avatar": "https://github.com/Joystream/founding-members/avatars/statue.png"
+      },
+      "extraAllocation": 0.15,
+      "summariesSubmitted": [],
+      "totalDirectScore": 0,
+      "referrals": null,
+      "totalReferralScore": 0,
+      "referrer": null,
+      "totalScore": 0
+    }, //...
+    {
+      "memberHandle": "Robert",
+      "memberId": 1266,
+      "inducted":
+      {
+        "fmId": 9,
+        "inductedScoringPeriodId": 2,
+        "avatar": "https://github.com/Joystream/founding-members/avatars/moose.png"
+      },
+      "extraAllocation": 0,
+      "summariesSubmitted":
+      [
+        {
+          "summaryId": 1.13,
+          "directScore": 18000
+        },
+        {
+          "summaryId": 2.1,
+          "directScore": 7000
+        }
+      ],
+      "totalDirectScore": 25000,
+      "referrals":
+      [
+        {
+          "memberHandle": "Johnny",
+          "memberId": 1268,
+          "inducted": null,
+          "referralScore":
+          [
+            {
+              "summaryId": 1.3,
+              "referralScore": 0
+            },
+            {
+              "summaryId": 2.3,
+              "referralScore": 500
+            }
+          ]
+        }
+      ],
+      "totalReferralScore": 500,
+      "referrer":
+      {
+        "memberHandle": "Leslie",
+        "memberId": 1,
+        "inducted":
+        {
+          "fmId": 1,
+          "inductedScoringPeriodId": 0,
+          "avatar": "https://github.com/Joystream/founding-members/avatars/bear.png"
+        }
+      },
+      "totalScore": 18500
+    }
+  ]
+}
