@@ -59,7 +59,7 @@
               },
               "referralScore": 150
             }
-          },//...
+          },
           {
             "summaryId": 1.13,
             "memberHandle": "Robert",
@@ -236,7 +236,7 @@
         {
           "memberHandle": "Darlene",
           "memberId": 124,
-          "inducted": null,
+          "inducted": null
         }
       },
       {
@@ -499,7 +499,7 @@
       "totalReferralScore": 0,
       "referrer": null,
       "totalScore": 0
-    }, //...
+    },
     {
       "memberHandle": "Robert",
       "memberId": 1266,
