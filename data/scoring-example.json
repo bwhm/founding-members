@@ -56,7 +56,7 @@
               {
                 "fmId": 9,
                 "inductedScoringPeriodId": 0,
-              "inductedDate": "2021-01-26",
+                "inductedDate": "2021-01-26",
                 "avatar": "https://github.com/Joystream/founding-members/avatars/moose.png" 
               },
               "referralScore": 150
@@ -82,7 +82,7 @@
               {
                 "fmId": 1,
                 "inductedScoringPeriodId": 0,
-              "inductedDate": "2020-12-26",
+                "inductedDate": "2020-12-26",
                 "avatar": "https://github.com/Joystream/founding-members/avatars/bear.png" 
               },
               "referralScore": 900
@@ -119,7 +119,7 @@
               {
                 "fmId": 1,
                 "inductedScoringPeriodId": 0,
-              "inductedDate": "2020-12-26",
+                "inductedDate": "2020-12-26",
                 "avatar": "https://github.com/Joystream/founding-members/avatars/bear.png" 
               },
               "referralScore": 700
@@ -139,7 +139,7 @@
               {
                 "fmId": 1,
                 "inductedScoringPeriodId": 0,
-              "inductedDate": "2020-12-26",
+                "inductedDate": "2020-12-26",
                 "avatar": "https://github.com/Joystream/founding-members/avatars/bear.png" 
               },
               "referralScore": 2000
@@ -159,7 +159,7 @@
               {
                 "fmId": 9,
                 "inductedScoringPeriodId": 0,
-              "inductedDate": "2021-01-26",
+                "inductedDate": "2021-01-26",
                 "avatar": "https://github.com/Joystream/founding-members/avatars/moose.png" 
               },
               "referralScore": 500
@@ -180,7 +180,7 @@
         {
           "fmId": 9,
           "inductedScoringPeriodId": 0,
-              "inductedDate": "2021-01-26",
+          "inductedDate": "2021-01-26",
           "avatar": "https://github.com/Joystream/founding-members/avatars/moose.png"
         },
         "summariesSubmitted": [
@@ -202,7 +202,7 @@
           {
             "fmId": 1,
             "inductedScoringPeriodId": 0,
-              "inductedDate": "2020-12-26",
+            "inductedDate": "2020-12-26",
             "avatar": "https://github.com/Joystream/founding-members/avatars/bear.png"
           }
         }
@@ -226,7 +226,7 @@
           {
             "fmId": 1,
             "inductedScoringPeriodId": 0,
-              "inductedDate": "2020-12-26",
+            "inductedDate": "2020-12-26",
             "avatar": "https://github.com/Joystream/founding-members/avatars/bear.png"
           }
         }
@@ -247,7 +247,7 @@
         {
           "memberHandle": "Darlene",
           "memberId": 124,
-          "inducted": null,
+          "inducted": null
         }
       },
       {
@@ -257,7 +257,7 @@
         {
           "fmId": 1,
           "inductedScoringPeriodId": 0,
-              "inductedDate": "2020-12-26",
+          "inductedDate": "2020-12-26",
           "avatar": "https://github.com/Joystream/founding-members/avatars/bear.png"
         },
         "summariesSubmitted":
@@ -293,7 +293,7 @@
           {
             "fmId": 9,
             "inductedScoringPeriodId": 0,
-              "inductedDate": "2021-01-26",
+            "inductedDate": "2021-01-26",
             "avatar": "https://github.com/Joystream/founding-members/avatars/moose.png"
           }
         }
@@ -307,7 +307,7 @@
         {
           "fmId": 1,
           "inductedScoringPeriodId": 0,
-              "inductedDate": "2020-12-26",
+          "inductedDate": "2020-12-26",
           "avatar": "https://github.com/Joystream/founding-members/avatars/bear.png"
         },
         "referrals":
@@ -358,7 +358,7 @@
         {
           "fmId": 9,
           "inductedScoringPeriodId": 0,
-              "inductedDate": "2021-01-26",
+          "inductedDate": "2021-01-26",
           "avatar": "https://github.com/Joystream/founding-members/avatars/moose.png"
         },
         "referrals":
@@ -389,7 +389,7 @@
           {
             "fmId": 1,
             "inductedScoringPeriodId": 0,
-              "inductedDate": "2020-12-26",
+            "inductedDate": "2020-12-26",
             "avatar": "https://github.com/Joystream/founding-members/avatars/bear.png"
           }
         }
@@ -403,7 +403,7 @@
         {
           "fmId": 9,
           "inductedScoringPeriodId": 0,
-              "inductedDate": "2021-01-26",
+          "inductedDate": "2021-01-26",
           "avatar": "https://github.com/Joystream/founding-members/avatars/moose.png"
         },
         "totalDirectScore": 25000,
@@ -417,7 +417,7 @@
           {
             "fmId": 1,
             "inductedScoringPeriodId": 0,
-              "inductedDate": "2020-12-26",
+            "inductedDate": "2020-12-26",
             "avatar": "https://github.com/Joystream/founding-members/avatars/bear.png"
           }
         }
@@ -429,7 +429,7 @@
         {
           "fmId": 1,
           "inductedScoringPeriodId": 0,
-              "inductedDate": "2020-12-26",
+          "inductedDate": "2020-12-26",
           "avatar": "https://github.com/Joystream/founding-members/avatars/bear.png"
         },
         "totalDirectScore": 10000,
@@ -452,7 +452,7 @@
       {
         "fmId": 1,
         "inductedScoringPeriodId": 0,
-              "inductedDate": "2020-12-26",
+        "inductedDate": "2020-12-26",
         "avatar": "https://github.com/Joystream/founding-members/avatars/bear.png"
       },
       "extraAllocation": 0.2,
@@ -473,7 +473,7 @@
           {
             "fmId": 9,
             "inductedScoringPeriodId": 0,
-              "inductedDate": "2021-01-26",
+            "inductedDate": "2021-01-26",
             "avatar": "https://github.com/Joystream/founding-members/avatars/moose.png"
           },
           "referralScore":
@@ -512,7 +512,7 @@
       {
         "fmId": 2,
         "inductedScoringPeriodId": 0,
-              "inductedDate": "2020-12-26",
+        "inductedDate": "2020-12-26",
         "avatar": "https://github.com/Joystream/founding-members/avatars/statue.png"
       },
       "extraAllocation": 0.15,
@@ -530,7 +530,7 @@
       {
         "fmId": 9,
         "inductedScoringPeriodId": 0,
-              "inductedDate": "2021-01-26",
+        "inductedDate": "2021-01-26",
         "avatar": "https://github.com/Joystream/founding-members/avatars/moose.png"
       },
       "extraAllocation": 0,
@@ -574,7 +574,7 @@
         {
           "fmId": 1,
           "inductedScoringPeriodId": 0,
-              "inductedDate": "2020-12-26",
+          "inductedDate": "2020-12-26",
           "avatar": "https://github.com/Joystream/founding-members/avatars/bear.png"
         }
       },
